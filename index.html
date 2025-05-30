@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
+    <title>AIQ - AI Tool Mastery Internship Program | Be Future Ready</title>
+    <meta name="description" content="Master AI tools with AIQ's comprehensive internship program. Open to all engineering streams - Civil, Mechanical, Electrical, ENTC & more. No prior experience required.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <!-- <img src="assets/logo.png" alt="AIQ Logo" width="40" height="40" class="me-2"> -->
+                <span class="fw-bold text-primary">AIQ</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <button class="btn btn-outline-primary me-2" id="theme-toggle">
+                            <i class="fas fa-moon" id="theme-icon"></i>
+                        </button>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="https://forms.gle/6RqCdQ2yhyhH1pMS6" target="_blank">Join Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-particles"></div>
+        <div class="hero-background">
+            <div class="container">
+                <div class="row align-items-center min-vh-100 pt-5">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="hero-content">
+                            <div class="hero-badge mb-3">
+                                <span class="badge bg-warning text-dark px-3 py-2">
+                                    <i class="fas fa-star me-1"></i>
+                                    #1 AI Internship Program in India
+                                </span>
+                            </div>
+                            <h1 class="hero-title">
+                                Master <span class="text-gradient00">AI Tools</span> & Transform Your Career in Just 12 Weeks
+                            </h1>
+                            <p class="hero-subtitle">
+                                Complete your final year project in 30 minutes! Learn cutting-edge AI tools designed for ALL engineering branches - Civil, Mechanical, Electrical, Computer Science & more.
+                            </p>
+                            <div class="hero-stats mb-4">
+                                <div class="row text-center">
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <h3 class="stat-number">500+</h3>
+                                            <p class="stat-label">Students Trained</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <h3 class="stat-number">200+</h3>
+                                            <p class="stat-label">AI Tools Covered</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-item">
+                                            <h3 class="stat-number">95%</h3>
+                                            <p class="stat-label">Success Rate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="hero-features mb-4">
+                                <div class="feature-item">
+                                    <i class="fas fa-rocket text-warning me-2"></i>
+                                    <span>Complete projects 10x faster with AI</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-certificate text-warning me-2"></i>
+                                    <span>Industry-recognized certification</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-briefcase text-warning me-2"></i>
+                                    <span>Job placement assistance included</span>
+                                </div>
+                            </div> -->
+                            <div class="hero-buttons">
+                                <a href="https://forms.gle/6RqCdQ2yhyhH1pMS6" target="_blank" class="btn btn-primary btn-lg me-3 pulse-btn">
+                                    <i class="fas fa-user-plus me-2"></i>Enroll Now - Limited Seats!
+                                </a>
+                                <a href="https://wa.me/919607587573" target="_blank" class="btn btn-success btn-lg me-3">
+                                    <i class="fab fa-whatsapp me-2"></i>WhatsApp Us
+                                </a>
+                            </div>
+                            <div class="hero-trust mt-3">
+                                <small class="text-light">
+                                    <i class="fas fa-shield-alt me-1"></i>
+                                    Trusted by 500+ engineering students across India
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="hero-visual">
+                            <div class="hero-card-stack">
+                                <div class="hero-card card-1">
+                                    <div class="card-icon">
+                                        <i class="fas fa-brain"></i>
+                                    </div>
+                                    <h6>AI Research</h6>
+                                    <p>Master research with AI tools</p>
+                                </div>
+                                <div class="hero-card card-2">
+                                    <div class="card-icon">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <h6>AI Coding</h6>
+                                    <p>Code 10x faster with AI assistants</p>
+                                </div>
+                                <div class="hero-card card-3">
+                                    <div class="card-icon">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <h6>Automation</h6>
+                                    <p>Automate repetitive tasks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer Banner -->
+    <section class="special-offer-section py-4">
+        <div class="container">
+            <div class="offer-banner">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="offer-content">
+                            <div class="offer-badge">
+                                <span class="badge bg-danger pulse-badge">
+                                    <i class="fas fa-fire me-1"></i>LIMITED TIME OFFER
+                                </span>
+                            </div>
+                            <h4 class="offer-title">🎯 Early Bird Special - Save 67% on Course Fees!</h4>
+                            <p class="offer-subtitle">Join now and get 4 BONUS courses absolutely FREE worth ₹15,000</p>
+                            <div class="offer-features">
+                                <span class="offer-feature">✅ Cyber Security Course</span>
+                                <span class="offer-feature">✅ Data Structures in C++</span>
+                                <span class="offer-feature">✅ Full Stack Development</span>
+                                <span class="offer-feature">✅ MERN Stack Course</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="offer-action">
+                            <div class="price-display">
+                                <span class="original-price">₹6,000</span>
+                                <span class="discounted-price">₹1,999</span>
+                            </div>
+                            <a href="https://forms.gle/6RqCdQ2yhyhH1pMS6" target="_blank" class="btn btn-warning btn-lg offer-btn">
+                                <i class="fas fa-bolt me-2"></i>Grab This Deal Now!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown-section py-4 bg-gradient-primary text-white">
+        <div class="container">
+            <div class="countdown-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-center mb-3 mb-lg-0">
+                        <div class="countdown-urgency">
+                            <h5 class="urgency-title">⏰ Next Batch Starts Soon!</h5>
+                            <p class="urgency-subtitle">Only <strong>25 seats</strong> remaining</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="countdown-content text-center">
+                            <h6 class="countdown-heading mb-3">Enrollment Closes In:</h6>
+                            <div class="countdown-timer d-flex justify-content-center">
+                                <div class="countdown-item me-3">
+                                    <span class="countdown-number" id="days">00</span>
+                                    <span class="countdown-label">Days</span>
+                                </div>
+                                <div class="countdown-item me-3">
+                                    <span class="countdown-number" id="hours">00</span>
+                                    <span class="countdown-label">Hours</span>
+                                </div>
+                                <div class="countdown-item me-3">
+                                    <span class="countdown-number" id="minutes">00</span>
+                                    <span class="countdown-label">Minutes</span>
+                                </div>
+                                <div class="countdown-item">
+                                    <span class="countdown-number" id="seconds">00</span>
+                                    <span class="countdown-label">Seconds</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Join AIQ Section -->
+    <section id="about" class="why-join-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Why Join AIQ?</h2>
+                    <p class="section-subtitle">Discover the advantages that set our AI internship program apart</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Master AI Tools</h4>
+                        <p>Learn AI tools tailored for various engineering streams including Civil, Mechanical, Electrical, and more.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h4>AI Concepts & Shortcuts</h4>
+                        <p>Discover AI concepts, shortcuts, and tricks that will revolutionize your approach to problem-solving.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h4>30-Minute Projects</h4>
+                        <p>Complete your final year project in just 30 minutes using AI-powered tools and techniques.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>Certification</h4>
+                        <p>Receive an internship completion certificate that adds value to your resume and career prospects.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h4>Hands-on Tasks</h4>
+                        <p>Daily practical tasks and real-life use cases to ensure you gain practical experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>Career Opportunities</h4>
+                        <p>Opportunity for part-time job placement post-internship with industry-level exposure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Overview Section -->
+    <section class="course-overview py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Internship Curriculum</h2>
+                    <p class="section-subtitle">Comprehensive AI training designed for all engineering disciplines</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="course-tabs">
+                        <ul class="nav nav-pills justify-content-center mb-4" id="courseTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="research-tab" data-bs-toggle="pill" data-bs-target="#research" type="button" role="tab">
+                                    <i class="fas fa-search me-2"></i>AI Research
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="coding-tab" data-bs-toggle="pill" data-bs-target="#coding" type="button" role="tab">
+                                    <i class="fas fa-code me-2"></i>AI Coding
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="automation-tab" data-bs-toggle="pill" data-bs-target="#automation" type="button" role="tab">
+                                    <i class="fas fa-cogs me-2"></i>Automation
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="career-tab" data-bs-toggle="pill" data-bs-target="#career" type="button" role="tab">
+                                    <i class="fas fa-user-tie me-2"></i>Career Growth
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pcb-tab" data-bs-toggle="pill" data-bs-target="#pcb" type="button" role="tab">
+                                    <i class="fas fa-microchip me-2"></i>PCB Design
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="chatbot-tab" data-bs-toggle="pill" data-bs-target="#chatbot" type="button" role="tab">
+                                    <i class="fas fa-robot me-2"></i>Chatbots
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="courseTabsContent">
+                            <div class="tab-pane fade show active" id="research" role="tabpanel">
+                                <div class="course-content">
+                                    <h4>AI for Research & Knowledge Enhancement</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="course-list">
+                                                <li><i class="fas fa-check text-success me-2"></i>Deep research using AI tools</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>AI for academic work & knowledge boost</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Stay updated with latest industry innovations</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://pixabay.com/get/gcb13676364ed64f03aba97d051967f677ea5cf2e7aad41e83593f0cd28855bfcb7001e6f824dd74297eca7d68a5798ff133bd4b1806befb0e7fc3ef8fbb16c2f_1280.jpg" 
+                                                 alt="Modern Education Technology" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="coding" role="tabpanel">
+                                <div class="course-content">
+                                    <h4>AI for Coding & Development</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="course-list">
+                                                <li><i class="fas fa-check text-success me-2"></i>Code assistants like ChatGPT, Copilot</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>No-code & low-code web development</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Debugging, technical reports, and automation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://pixabay.com/get/ga018f854e5c403f45d13dbfecbfd462f718638b750d9664493427cb41d89a8dd4be14d3845a5706e448aedb48b0dcc8cc24a04a8d7433cdafa02505da8ad078b_1280.jpg" 
+                                                 alt="AI Technology Students" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="automation" role="tabpanel">
+                                <div class="course-content">
+                                    <h4>AI for Workflow & Productivity Automation</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="course-list">
+                                                <li><i class="fas fa-check text-success me-2"></i>Automate daily mundane tasks</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Workflow efficiency using AI</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Productivity boosters and task schedulers</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://pixabay.com/get/g443095bde40c01f66c66589cf43b3a89479830ed925b5986534fc7128680f63fc8b237a7dae044f2150335fd3b9dc34cebb49e4e6ee6cf8e6a09df9db2c80c58_1280.jpg" 
+                                                 alt="Modern Education Technology" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="career" role="tabpanel">
+                                <div class="course-content">
+                                    <h4>AI for Personal & Career Growth</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="course-list">
+                                                <li><i class="fas fa-check text-success me-2"></i>Resume and profile optimization</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>AI-generated pitch decks, scripts, and content</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>AI for branding & social media</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://pixabay.com/get/g42dad7d4741fde35f70f5ac21d0d2fb398f10e7b86e0acf281b9a7f83ad4069e64f0bd819371b4fb3e11858a1186630f24950e561b406f8ca8646829c680a1e4_1280.jpg" 
+                                                 alt="Professional Development" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pcb" role="tabpanel">
+                                <div class="course-content">
+                                    <h4>AI for PCB & Circuit Design</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="course-list">
+                                                <li><i class="fas fa-check text-success me-2"></i>Circuit simulation tools</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>AI for embedded systems & IoT</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Smart device integration</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://pixabay.com/get/g9fba721191f35a47f6c885ebcebc8b77c0cb5dedcaea04ff53a5a7e9d069dc9e724d318069fc259d1b8dd2d022934477a7d81d7cd399f2042e8b1c2f3f9684b3_1280.jpg" 
+                                                 alt="Engineering Students" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="chatbot" role="tabpanel">
+                                <div class="course-content">
+                                    <h4>AI for Chatbots & Virtual Assistants</h4>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul class="course-list">
+                                                <li><i class="fas fa-check text-success me-2"></i>Create your own chatbot</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Use platforms like BotPress, Dialogflow, etc.</li>
+                                                <li><i class="fas fa-check text-success me-2"></i>Virtual assistants for websites and services</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="https://pixabay.com/get/ge9cbcf42ad757df513e25cc79625333d6439fa6420450fe3b4b6c7d4c18d876dae4f6cd66cb25ae6871965e7c7067fdf21f4ee1b57d6ed39833404bc7190ada1_1280.jpg" 
+                                                 alt="AI Technology Students" class="img-fluid rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Courses Section -->
+    <section class="bonus-courses py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Bonus Courses</h2>
+                    <p class="section-subtitle">Free additional courses included with your internship</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bonus-card">
+                        <div class="bonus-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h5>Cyber Security & Ethical Hacking</h5>
+                        <p>Complete course with practical tasks, videos, and certification</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bonus-card">
+                        <div class="bonus-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h5>Data Structures in C++</h5>
+                        <p>Master fundamental programming concepts with hands-on practice</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bonus-card">
+                        <div class="bonus-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h5>Full Stack Web Development</h5>
+                        <p>Build complete web applications from frontend to backend</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bonus-card">
+                        <div class="bonus-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h5>MERN Stack Development</h5>
+                        <p>Modern web development using MongoDB, Express, React, and Node.js</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Can Join Section -->
+    <section class="who-can-join py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="who-join-content">
+                        <h2 class="section-title">Who Can Join?</h2>
+                        <p class="section-subtitle mb-4">Our program is designed to be inclusive and accessible to students from all engineering backgrounds</p>
+                        <div class="join-features">
+                            <div class="join-feature">
+                                <i class="fas fa-users text-primary me-3"></i>
+                                <div>
+                                    <h5>All Engineering Streams Welcome</h5>
+                                    <p>Civil, Mechanical, Electrical, ENTC, Computer Science, and all other engineering disciplines</p>
+                                </div>
+                            </div>
+                            <div class="join-feature">
+                                <i class="fas fa-graduation-cap text-primary me-3"></i>
+                                <div>
+                                    <h5>Diploma & Degree Students</h5>
+                                    <p>Whether you're pursuing a diploma or degree, you're welcome to join our program</p>
+                                </div>
+                            </div>
+                            <div class="join-feature">
+                                <i class="fas fa-star text-primary me-3"></i>
+                                <div>
+                                    <h5>No Prior Experience Required</h5>
+                                    <p>Complete beginners can join - no coding or AI experience necessary</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="who-join-image">
+                        <img src="https://pixabay.com/get/g2d02c7ceb652dd235807333d24a7a2d2cf2456cc6df353dfd7574bdf203beeca5a7ccca99757511b3dc82013139236c7990181e9d57a01d7137a67c87fb52269_1280.jpg" 
+                             alt="Diverse Engineering Students" class="img-fluid rounded-3 shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">What Students Say</h2>
+                    <p class="section-subtitle">Hear from our successful interns</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="testimonial-card">
+                                            <div class="testimonial-content">
+                                                <p>"The AI tools I learned here helped me complete my final year project in mechanical engineering efficiently. Highly recommended for all engineering students!"</p>
+                                            </div>
+                                            <div class="testimonial-author">
+                                                <img src="https://pixabay.com/get/g91a68dfebe1b89db87f2cf640e71f0dc4b1e341fe6416bdfb76127f717e509bbc01895de570b98848ad893b8db3deb18df5d21446dae2ac0b07c7e3f9e904096_1280.jpg" 
+                                                     alt="Student" class="author-image">
+                                                <div class="author-info">
+                                                    <h6>Priya Sharma</h6>
+                                                    <small>Mechanical Engineering Student</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="testimonial-card">
+                                            <div class="testimonial-content">
+                                                <p>"As an electrical engineering student, I thought AI wasn't for me. This program changed my perspective and opened new career opportunities."</p>
+                                            </div>
+                                            <div class="testimonial-author">
+                                                <img src="https://pixabay.com/get/gc6055a4717248d789883d9791bcfaf95aa1654b32d17615e500da7e2b06d6b12ee38537d8c622084abe19fbe916d8bb3ae1b2b76685dcabfe6164789cda6fde0_1280.jpg" 
+                                                     alt="Student" class="author-image">
+                                                <div class="author-info">
+                                                    <h6>Rajesh Kumar</h6>
+                                                    <small>Electrical Engineering Student</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="testimonial-card">
+                                            <div class="testimonial-content">
+                                                <p>"The practical approach and real-world applications made learning AI tools so much easier. Got a part-time job offer after completion!"</p>
+                                            </div>
+                                            <div class="testimonial-author">
+                                                <img src="https://pixabay.com/get/ga848eae501c48244d8b43789d40cfec481e303fc339ba030fd2eb5b30885a83cabba492a1ea2f7197b36868fb4da9e15cc118f65eb8a6996f6f6e93f46766928_1280.jpg" 
+                                                     alt="Student" class="author-image">
+                                                <div class="author-info">
+                                                    <h6>Ananya Patel</h6>
+                                                    <small>Civil Engineering Student</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Section -->
+    <section id="enrollment" class="enrollment-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="enrollment-content">
+                        <h2>Ready to Transform Your Career?</h2>
+                        <p class="lead">Join thousands of students who have already started their AI journey with AIQ</p>
+                        <div class="enrollment-features">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fas fa-whatsapp text-success me-3 fs-4"></i>
+                                <span>Join our WhatsApp community</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="fab fa-telegram text-info me-3 fs-4"></i>
+                                <span>Get updates on Telegram</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-certificate text-warning me-3 fs-4"></i>
+                                <span>Industry-recognized certification</span>
+                            </div>
+                        </div>
+                        <div class="enrollment-buttons mt-4">
+                            <a href="https://wa.me/919999999999" class="btn btn-success btn-lg me-3">
+                                <i class="fab fa-whatsapp me-2"></i>Join WhatsApp
+                            </a>
+                            <a href="https://t.me/aiq_internship" class="btn btn-info btn-lg">
+                                <i class="fab fa-telegram me-2"></i>Join Telegram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="enrollment-form bg-white rounded-3 p-4 text-dark">
+                        <h4 class="mb-4 text-center">Enroll Now</h4>
+                        <form id="enrollmentForm" action="php/contact.php" method="POST">
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label">Full Name *</label>
+                                <input type="text" class="form-control" id="fullName" name="fullName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number *</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="branch" class="form-label">Engineering Branch *</label>
+                                <select class="form-control" id="branch" name="branch" required>
+                                    <option value="">Select Your Branch</option>
+                                    <option value="Computer Science">Computer Science</option>
+                                    <option value="Mechanical">Mechanical</option>
+                                    <option value="Electrical">Electrical</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Electronics">Electronics</option>
+                                    <option value="ENTC">ENTC</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="year" class="form-label">Current Year *</label>
+                                <select class="form-control" id="year" name="year" required>
+                                    <option value="">Select Year</option>
+                                    <option value="1st Year">1st Year</option>
+                                    <option value="2nd Year">2nd Year</option>
+                                    <option value="3rd Year">3rd Year</option>
+                                    <option value="4th Year">4th Year</option>
+                                    <option value="Final Year">Final Year</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Enroll Now
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <!-- <img src="assets/logo.svg" alt="AIQ Logo" width="40" height="40" class="me-2"> -->
+                        <span class="fw-bold fs-4">AIQ</span>
+                    </div>
+                    <p class="mt-3">Empowering the next generation of engineers with cutting-edge AI tools and knowledge.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6>Courses</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">AI Research</a></li>
+                        <li><a href="#">AI Coding</a></li>
+                        <li><a href="#">Automation</a></li>
+                        <li><a href="#">Career Growth</a></li>
+                        <li><a href="#">PCB Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6>Contact Info</h6>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope me-2"></i>info@aiq.com</p>
+                        <p><i class="fas fa-phone me-2"></i>+91 99999 99999</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Mumbai, India</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 AIQ. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">AIQ Internship Introduction</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="AIQ Introduction Video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

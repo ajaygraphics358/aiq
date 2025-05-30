@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AIQ AI Tool Mastery Internship Program</title>
+    <meta name="description" content="Get in touch with AIQ team. Contact us for inquiries about our AI internship program, enrollment, or technical support.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <!-- <img src="assets/logo.svg" alt="AIQ Logo" width="40" height="40" class="me-2"> -->
+                <span class="fw-bold text-primary">AIQ</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-primary me-2" id="theme-toggle">
+                            <i class="fas fa-moon" id="theme-icon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="https://forms.gle/6RqCdQ2yhyhH1pMS6" target="_blank">Join Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <h1 class="display-4 fw-bold mb-3">Contact Us</h1>
+                    <p class="lead">We're here to help you start your AI journey. Get in touch with our team today!</p>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <img src="https://pixabay.com/get/g8fad898f17e15e3b0eab6c48b43b6979189a24a25609dd07aa9251289170c475ed1fb0f936541a0a55c095f9f7b716d66a7692573c0c3ba4e45ffe42c1072718_1280.jpg" 
+                         alt="Contact Support" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-card text-center h-100">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Us</h4>
+                        <p>Send us your questions and we'll respond within 24 hours</p>
+                        <a href="mailto:info@aiq.com" class="btn btn-outline-primary">info@aiq.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-card text-center h-100">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Call Us</h4>
+                        <p>Speak directly with our enrollment counselors</p>
+                        <a href="tel:+919607587573" class="btn btn-outline-primary">+91 96075 87573</a>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-card text-center h-100">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Visit Us</h4>
+                        <p>Our office is open Monday to Friday, 9 AM to 6 PM</p>
+                        <p class="fw-bold">Mumbai, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form-wrapper" data-aos="fade-up">
+                        <div class="text-center mb-5">
+                            <h2 class="section-title">Send us a Message</h2>
+                            <p class="section-subtitle">Fill out the form below and we'll get back to you as soon as possible</p>
+                        </div>
+                        
+                        <div class="contact-form bg-white rounded-3 p-4 shadow">
+                            <form id="contactForm" action="php/contact.php" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="contactEmail" class="form-label">Email Address *</label>
+                                        <input type="email" class="form-control" id="contactEmail" name="email" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="contactPhone" class="form-label">Phone Number *</label>
+                                        <input type="tel" class="form-control" id="contactPhone" name="phone" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="contactBranch" class="form-label">Engineering Branch</label>
+                                        <select class="form-control" id="contactBranch" name="branch">
+                                            <option value="">Select Your Branch</option>
+                                            <option value="Computer Science">Computer Science</option>
+                                            <option value="Mechanical">Mechanical</option>
+                                            <option value="Electrical">Electrical</option>
+                                            <option value="Civil">Civil</option>
+                                            <option value="Electronics">Electronics</option>
+                                            <option value="ENTC">ENTC</option>
+                                            <option value="Chemical">Chemical</option>
+                                            <option value="Aerospace">Aerospace</option>
+                                            <option value="Biotechnology">Biotechnology</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="inquiryType" class="form-label">Inquiry Type *</label>
+                                        <select class="form-control" id="inquiryType" name="inquiryType" required>
+                                            <option value="">Select Inquiry Type</option>
+                                            <option value="Course Information">Course Information</option>
+                                            <option value="Enrollment">Enrollment</option>
+                                            <option value="Technical Support">Technical Support</option>
+                                            <option value="Career Guidance">Career Guidance</option>
+                                            <option value="Partnership">Partnership</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject *</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Please provide details about your inquiry..."></textarea>
+                                </div>
+                                
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="agreeTerms" name="agreeTerms" required>
+                                    <label class="form-check-label" for="agreeTerms">
+                                        I agree to receive communications from AIQ and consent to the processing of my personal data *
+                                    </label>
+                                </div>
+                                
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </form>
+                            
+                            <!-- Form Response Messages -->
+                            <div id="formResponse" class="mt-3" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Options -->
+    <section class="quick-contact py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Prefer Instant Communication?</h2>
+                    <p class="section-subtitle">Join our community channels for immediate assistance</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quick-contact-card whatsapp-card">
+                        <div class="quick-contact-content">
+                            <div class="quick-contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h4>WhatsApp Community</h4>
+                            <p>Join our active WhatsApp group for instant support, doubt clearing, and peer interaction</p>
+                            <ul class="quick-features">
+                                <li><i class="fas fa-check text-success me-2"></i>Instant doubt resolution</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Daily updates and tips</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Peer networking</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Direct instructor access</li>
+                            </ul>
+                            <a href="https://wa.me/919607587573" class="btn btn-success btn-lg">
+                                <i class="fab fa-whatsapp me-2"></i>Join WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quick-contact-card telegram-card">
+                        <div class="quick-contact-content">
+                            <div class="quick-contact-icon">
+                                <i class="fab fa-telegram"></i>
+                            </div>
+                            <h4>Telegram Channel</h4>
+                            <p>Follow our Telegram channel for course announcements, resources, and important updates</p>
+                            <ul class="quick-features">
+                                <li><i class="fas fa-check text-info me-2"></i>Course announcements</li>
+                                <li><i class="fas fa-check text-info me-2"></i>Resource sharing</li>
+                                <li><i class="fas fa-check text-info me-2"></i>Job opportunities</li>
+                                <li><i class="fas fa-check text-info me-2"></i>Industry insights</li>
+                            </ul>
+                            <a href="https://t.me/aiq_internship" class="btn btn-info btn-lg">
+                                <i class="fab fa-telegram me-2"></i>Join Telegram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Hours -->
+    <section class="office-hours py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center" data-aos="fade-up">
+                    <h3 class="section-title">Office Hours</h3>
+                    <p class="section-subtitle">Our team is available during these hours for direct assistance</p>
+                    <div class="office-hours-grid">
+                        <div class="office-hours-item">
+                            <h6>Monday - Friday</h6>
+                            <p>9:00 AM - 6:00 PM (IST)</p>
+                        </div>
+                        <div class="office-hours-item">
+                            <h6>Saturday</h6>
+                            <p>10:00 AM - 4:00 PM (IST)</p>
+                        </div>
+                        <div class="office-hours-item">
+                            <h6>Sunday</h6>
+                            <p>WhatsApp/Telegram Only</p>
+                        </div>
+                    </div>
+                    <div class="response-time mt-4">
+                        <p class="mb-0"><strong>Response Time:</strong></p>
+                        <p>Email: Within 24 hours<br>
+                        WhatsApp/Telegram: Within 2 hours<br>
+                        Phone: Immediate during office hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <!-- <img src="assets/logo.svg" alt="AIQ Logo" width="40" height="40" class="me-2"> -->
+                        <span class="fw-bold fs-4">AIQ</span>
+                    </div>
+                    <p class="mt-3">Empowering the next generation of engineers with cutting-edge AI tools and knowledge.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6>Courses</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">AI Research</a></li>
+                        <li><a href="#">AI Coding</a></li>
+                        <li><a href="#">Automation</a></li>
+                        <li><a href="#">Career Growth</a></li>
+                        <li><a href="#">PCB Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6>Contact Info</h6>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope me-2"></i>info@aiq.com</p>
+                        <p><i class="fas fa-phone me-2"></i>+91 99999 99999</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Mumbai, India</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 AIQ. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
